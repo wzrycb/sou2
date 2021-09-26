@@ -74,17 +74,17 @@ var quick_list_preinstall = {
         img: "./icon/QQ群.jpg",
         explain: "QQ群",
     },
-    '9': {
-        title: "王者交流群",
-        url: "https://jq.qq.com/?_wv=1027&k=XF9unCRj",
-        img: "./icon/王者荣耀.jpg",
-        explain: "QQ群",
-    },
-    '10': {
+    '9':{
         title: "公告",
         url: "https://docs.qq.com/doc/DWGxaR1lhSHRRemRj",
         img: "./icon/公告.png",
         explain: "公告",
+    },
+    '10':{
+        title: "王者交流群",
+        url: "https://jq.qq.com/?_wv=1027&k=XF9unCRj",
+        img: "./icon/王者荣耀.jpg",
+        explain: "QQ群",
     },
 };
 
