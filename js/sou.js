@@ -117,7 +117,7 @@ var themes_preinstall = {
 //背景图片
 var bg_img_preinstall = {
     "type" : "3",// 1:使用主题默认的背景图片、2:关闭背景图片、3:使用自定义的背景图片
-    "path" : "http://photogz.photo.store.qq.com/psc?/V532TIzi3sHL8u2sndiY4gVO9h0pfdlJ/TmEUgtj9EK6.7V8ajmQrEKiXcwY.sZqiaqSf5tXKHpmJMiBBvRK2py16js5CNQQbhbmtJvfV3ogh7YB*fS79DlBlVraJ*hsu30YVojOroBw!/b&bo=gAc4BAAAAAABN6s!&rf=viewer_4",//背景图片
+    "path" : "http://m.qpic.cn/psc?/V532TIzi3sHL8u2sndiY4gVO9h0pfdlJ/TmEUgtj9EK6.7V8ajmQrEJMwLin5NS14qtd.ESVXu9lC9DXF9d1VXlCUre1fB9GKFWt*fjbcJpr5Z9mMzpeJ.rqvJhYwQOzBIyw6hW42XV8!/b&bo=gAc4BAAAAAABJ7s!&rf=viewer_4",//背景图片
 };
 
 // 获取背景图片
