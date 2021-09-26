@@ -38,49 +38,51 @@ var quick_list_preinstall = {
         img: "./icon/github.ico",
         explain: "GitHub",
     },
+    /*
     '3': {
         title: "V2EX",
         url: "https://www.v2ex.com/",
         img: "./icon/v2ex.png",
         explain: "V2EX",
-    },
-    '4': {
+    },*/
+    '3': {
         title: "Steam",
         url: "https://store.steampowered.com/",
         img: "./icon/steam.ico",
         explain: "Steam",
     },
-    '5': {
+    '4': {
         title: "爬虫文章",
         url: "https://www.cnblogs.com/TM0831/category/1262631.html",
         img: "./icon/爬虫.png",
         explain: "爬虫",
     },
-    '6': {
+    '5': {
         title: "QQ邮箱",
         url: "https://mail.qq.com/",
         img: "./icon/QQ.png",
         explain: "QQ邮箱",
     },
-    '7': {
+    '6': {
         title: "王者全英雄皮肤壁纸",
         url: "https://img.wang/user/yunyu",
         img: "./icon/王者.png",
         explain: "王者全英雄皮肤壁纸",
     },
-    '8': {
+    '7': {
         title: "加入我们（QQ群）",
         url: "https://jq.qq.com/?_wv=1027&k=VNBI7Q5P",
         img: "./icon/QQ群.jpg",
         explain: "QQ群",
     },
-    '9':{
+    '8':{
         title: "公告",
         url: "https://docs.qq.com/doc/DWGxaR1lhSHRRemRj",
         img: "./icon/公告.png",
         explain: "公告",
     },
-    '10':{
+
+    '9':{
         title: "王者交流群",
         url: "https://jq.qq.com/?_wv=1027&k=XF9unCRj",
         img: "./icon/王者荣耀.jpg",
