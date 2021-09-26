@@ -80,6 +80,12 @@ var quick_list_preinstall = {
         img: "./icon/王者荣耀.jpg",
         explain: "QQ群",
     },
+    '10': {
+        title: "公告",
+        url: "https://docs.qq.com/doc/DWGxaR1lhSHRRemRj",
+        img: "./icon/公告.png",
+        explain: "公告",
+    },
 };
 
 // 主题方案【预设】
