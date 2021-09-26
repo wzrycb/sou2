@@ -1,15 +1,3 @@
-/*
-作者:D.Young
-主页：https://yyv.me/
-github：https://github.com/5iux/sou
-日期：2019-07-26
-版权所有，请勿删除
-❶❷❸❹❺❻❼❽❾❿
-由 yeetime 修改
-github：https://github.com/yeetime/sou2
-日期：2019-12-13
-*/
-
 // 搜索引擎列表【预设】
 var se_list_preinstall = {
     '1': {
@@ -17,7 +5,7 @@ var se_list_preinstall = {
         title: "百度",
         url: "https://www.baidu.com/s",
         name: "wd",
-        img: "./icon/baidu.ico",
+        img: "./icon/baidu.ico",       
     },
     '2': {
         id: 2,
@@ -26,13 +14,14 @@ var se_list_preinstall = {
         name: "q",
         img: "./icon/google_1.png",
     },
+    /*
     '3': {
         id: 3,
         title: "必应",
         url: "https://cn.bing.com/search",
         name: "q",
         img: "./icon/bing.ico",
-    }
+    }*/
 };
 
 // 主页快捷方式【预设】
@@ -62,10 +51,34 @@ var quick_list_preinstall = {
         explain: "Steam",
     },
     '5': {
-        title: "scp基金会",
-        url: "http://scp-wiki-cn.wikidot.com/",
-        img: "./icon/scp.png",
-        explain: "控制，收容，保护",
+        title: "爬虫文章",
+        url: "https://www.cnblogs.com/TM0831/category/1262631.html",
+        img: "./icon/爬虫.png",
+        explain: "爬虫",
+    },
+    '6': {
+        title: "QQ邮箱",
+        url: "https://mail.qq.com/",
+        img: "./icon/QQ.png",
+        explain: "QQ邮箱",
+    },
+    '7': {
+        title: "王者全英雄皮肤壁纸",
+        url: "https://img.wang/user/yunyu",
+        img: "./icon/王者.png",
+        explain: "王者全英雄皮肤壁纸",
+    },
+    '8': {
+        title: "加入我们（QQ群）",
+        url: "https://jq.qq.com/?_wv=1027&k=VNBI7Q5P",
+        img: "./icon/QQ群.jpg",
+        explain: "QQ群",
+    },
+    '9': {
+        title: "王者交流群",
+        url: "https://jq.qq.com/?_wv=1027&k=XF9unCRj",
+        img: "./icon/王者荣耀.jpg",
+        explain: "QQ群",
     },
 };
 
@@ -79,24 +92,24 @@ var themes_preinstall = {
         'bottom_bg': "#ddd",// 按钮背景
         //'top_bg': "#2299ff",// 高亮
         'text_color': "#777777",// 文本颜色
-        'bg_img': "",//背景图片
+        'bg_img': "http://m.qpic.cn/psc?/V532TIzi3sHL8u2sndiY4gVO9h0pfdlJ/TmEUgtj9EK6.7V8ajmQrELlLBmrHm7lgJ7P1kOBJvns8wZsoTkdfZ1wNlfcQaJwOC393bJ*UrDOrrXG2t4SVdHu*f90D5qM5bsAtuP06oCE!/b&bo=gAc4BAAAAAABJ7s!&rf=viewer_4",//背景图片
     },
     '2': {
-        'name': 'darcula',
+        'name': 'darcula',/*关闭图片*/
         'bg': "#2b2b2b",
         'pop_bg': "#3c3f41",
         'shadow': "#211f1f",
         'bottom_bg': "#4c5052",
         //'top_bg': "#365880",// 高亮
         'text_color': "#bbbbbb",
-        'bg_img': "",//背景图片
+        'bg_img': "http://m.qpic.cn/psc?/V532TIzi3sHL8u2sndiY4gVO9h0pfdlJ/TmEUgtj9EK6.7V8ajmQrEL7RDC9t3PEazTzNVPXV4Bq51L0aSpiycvAz3wZwNFC*W5yfmKVFlYE.yzsyW.chl8A08Qth3lYugxXJS4UT9lQ!/b&bo=gAc4BAAAAAABJ7s!&rf=viewer_4",//背景图片
     },
 };
 
 //背景图片
 var bg_img_preinstall = {
     "type" : "3",// 1:使用主题默认的背景图片、2:关闭背景图片、3:使用自定义的背景图片
-    "path" : "https://cdn.jsdelivr.net/gh/yeetime/img/20200627173550.png",//背景图片
+    "path" : "http://photogz.photo.store.qq.com/psc?/V532TIzi3sHL8u2sndiY4gVO9h0pfdlJ/TmEUgtj9EK6.7V8ajmQrEKiXcwY.sZqiaqSf5tXKHpmJMiBBvRK2py16js5CNQQbhbmtJvfV3ogh7YB*fS79DlBlVraJ*hsu30YVojOroBw!/b&bo=gAc4BAAAAAABN6s!&rf=viewer_4",//背景图片
 };
 
 // 获取背景图片
