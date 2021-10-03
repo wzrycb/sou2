@@ -76,13 +76,13 @@ var quick_list_preinstall = {
         img: "./icon/视频.png",
         explain: "全网vip视频免费看，拒绝会员超前点播",
     },
-    
+    /*
     '9':{
         title: "笔记（一站式广告平台）",
         url: "https://turn.bbksoul.com/affiliate#",
         img: "./icon/广告.png",
         explain: "广告",
-    },
+    },*/
     '9':{
         title: "音乐解析",
         url: "https://unlock-music-ix.netlify.app/",
