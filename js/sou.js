@@ -5,7 +5,7 @@ var se_list_preinstall = {
         title: "百度",
         url: "https://www.baidu.com/s",
         name: "wd",
-        img: "./icon/baidu.ico",       
+        img: "./icon/搜索(1).png",    
     },
     '2': {
         id: 2,
@@ -14,80 +14,87 @@ var se_list_preinstall = {
         name: "q",
         img: "./icon/google_1.png",
     },
-    /*
+    
     '3': {
         id: 3,
         title: "必应",
         url: "https://cn.bing.com/search",
         name: "q",
         img: "./icon/bing.ico",
-    }*/
+    }
 };
 
 // 主页快捷方式【预设】
 var quick_list_preinstall = {
-    '1': {
+    '1':{
         title: "哔哩哔哩",
         url: "https://www.bilibili.com/",
         img: "./icon/bilibili.png",
         explain: "哔哩哔哩 (゜-゜)つロ 干杯~",
     },
-    '2': {
-        title: "GitHub",
-        url: "https://github.com/",
-        img: "./icon/github.ico",
-        explain: "GitHub",
-    },
-    /*
-    '3': {
-        title: "V2EX",
-        url: "https://www.v2ex.com/",
-        img: "./icon/v2ex.png",
-        explain: "V2EX",
-    },*/
-    '3': {
+    '2':{
         title: "Steam",
         url: "https://store.steampowered.com/",
         img: "./icon/steam.ico",
         explain: "Steam",
     },
-    '4': {
+
+    '3':{
+        title: "V2EX",
+        url: "https://www.v2ex.com/",
+        img: "./icon/v2ex.png",
+        explain: "V2EX",
+    },
+    '4':{
         title: "爬虫文章",
         url: "https://www.cnblogs.com/TM0831/category/1262631.html",
         img: "./icon/爬虫.png",
         explain: "爬虫",
     },
-    '5': {
+    '5':{
         title: "QQ邮箱",
         url: "https://mail.qq.com/",
         img: "./icon/QQ.png",
         explain: "QQ邮箱",
     },
-    '6': {
+    '6':{
         title: "王者全英雄皮肤壁纸",
         url: "https://img.wang/user/yunyu",
-        img: "./icon/王者.png",
+        img: "./icon/王者荣耀.jpg",
         explain: "王者全英雄皮肤壁纸",
     },
-    '7': {
+    
+    '7':{
+        title: "QQ查绑",
+        url: "http://chaqbang.com/",
+        img: "./icon/查询.png",
+        explain: "通过QQ查密保",
+    },
+    '8':{
+        title: "全网vip视频",
+        url: "https://www.ziyuanyo.com/video.html",
+        img: "./icon/视频.png",
+        explain: "全网vip视频免费看，拒绝会员超前点播",
+    },
+    
+    '9':{
+        title: "笔记（一站式广告平台）",
+        url: "https://turn.bbksoul.com/affiliate#",
+        img: "./icon/广告.png",
+        explain: "广告",
+    },
+    '9':{
+        title: "音乐解析",
+        url: "https://unlock-music-ix.netlify.app/",
+        img: "./icon/音乐.png",
+        explain: "音乐免费听",
+    },/*
+    '10':{
         title: "加入我们（QQ群）",
         url: "https://jq.qq.com/?_wv=1027&k=VNBI7Q5P",
         img: "./icon/QQ群.jpg",
         explain: "QQ群",
-    },
-    '8':{
-        title: "公告",
-        url: "https://docs.qq.com/doc/DWGxaR1lhSHRRemRj",
-        img: "./icon/公告.png",
-        explain: "公告",
-    },
-
-    '9':{
-        title: "王者交流群",
-        url: "https://jq.qq.com/?_wv=1027&k=XF9unCRj",
-        img: "./icon/王者荣耀.jpg",
-        explain: "QQ群",
-    },
+    },*/
 };
 
 // 主题方案【预设】
